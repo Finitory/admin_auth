@@ -1,0 +1,6 @@
+blue:
+  auth:
+    dev-identity:
+      username: ${BLUE_AUTH_DEV_USERNAME}
+      password: ${BLUE_AUTH_DEV_PASSWORD}
+      subject: ${BLUE_AUTH_DEV_SUBJECT}
