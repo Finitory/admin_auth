@@ -1,0 +1,6 @@
+blue:
+  auth:
+    dev-identity:
+      username: test-admin
+      password: test-password
+      subject: 00000000-0000-0000-0000-000000000001
