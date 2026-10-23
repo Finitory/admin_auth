@@ -51,4 +51,10 @@ class ApplicationTests {
                 .andExpect(status().is3xxRedirection());
     }
 
+    @Test
+    void loginPageIsPublic() throws Exception {
+        mockMvc.perform(get("/login"))
+                .andExpect(status().isOk());
+    }
+
 }
