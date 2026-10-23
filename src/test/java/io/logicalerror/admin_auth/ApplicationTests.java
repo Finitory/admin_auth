@@ -55,5 +55,7 @@ class ApplicationTests {
     void loginPageIsPublic() throws Exception {
         mockMvc.perform(get("/login"))
                 .andExpect(status().isOk());
+        // test
     }
+
 }
