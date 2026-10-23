@@ -56,4 +56,5 @@ class ApplicationTests {
         mockMvc.perform(get("/login"))
                 .andExpect(status().isOk());
     }
+
 }
